@@ -1,0 +1,51 @@
+//1st q
+forEach and for...of both let you iterate over items
+forEach
+Cannot use break, continue, or return to exit early (except by throwing an error).
+for...of
+Supports break, continue, and return inside the loop.
+
+//2nd  
+-Hoisting is JavaScript’s behavior of moving declarations (not assignments) to the top of their scope during compilation, before the code executes.
+-The TDZ is a period between entering a scope and the moment a let or const variable is initialized.
+During this time, accessing the variable throws a ReferenceError.
+for ex:
+console.log(x); 
+let x = 10;
+this will give error 
+but with var will give undefiend if var
+//3rd question
+=== check the value and type>>>>>>>>> 5 === "5"  // false
+== check the value only >>>>>>>>>>>>5 == "5"  // true
+//4th question
+try {
+  // Code that might throw an error
+} catch (error) {
+  // Code that runs if an error occurs
+} finally {
+  // (optional) code that always runs, even after return
+}
+JavaScript executes the try block.
+
+If no error occurs → skip catch, run finally (if present).
+
+If an error is thrown inside try:
+
+It immediately stops running the rest of the try block.
+
+Control jumps to the catch block.
+
+The error object contains info about what went wrong.
+
+1. Type Conversion (Explicit Conversion)
+You intentionally convert a value from one type to another using functions or constructors.
+Ex:
+String(123);     // "123"
+(123).toString(); // "123"
+2. Type Coercion (Implicit Conversion)
+Happens implicitly when operators need matching types.
+Ex:
+String + Number → String
+"5" + 1   >>>>>>>>>> "51"
+Number + Boolean → Number
+1 + true   >>>>>>>>>>2   (because true → 1)

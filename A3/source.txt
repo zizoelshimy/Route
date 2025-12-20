@@ -1,0 +1,4 @@
+This is the source file content.
+This file will be copied to dest.txt using streams.
+Streams provide an efficient way to handle file operations.
+This is especially useful for large files.

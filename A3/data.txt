@@ -1,0 +1,5 @@
+This is the data file that will be compressed.
+It contains sample data for testing the compression pipeline.
+The pipeline will read this file, compress it using gzip, and write it to data.txt.gz.
+This demonstrates the power of Node.js pipelines for chaining stream operations.
+Compression is useful for reducing file sizes and saving storage space.

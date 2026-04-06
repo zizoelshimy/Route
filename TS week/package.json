@@ -1,0 +1,15 @@
+{
+  "name": "ts-week",
+  "version": "1.0.0",
+  "main": "./dist/main.ts",
+  "scripts": {
+    "start:dev":"concurrently \"tsc --watch\" \"node --watch dist/main.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
